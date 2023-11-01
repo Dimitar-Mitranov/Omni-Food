@@ -678,7 +678,11 @@
                   the first meal is on us!
                 </p>
 
-                <form class="cta-form grid-main grid--2-cols" action="#">
+                <form
+                  class="cta-form grid-main grid--2-cols"
+                  name="sign-up"
+                  netlify
+                >
                   <div>
                     <label class="label" for="full-name">Full Name</label>
                     <input
@@ -686,6 +690,7 @@
                       class="input"
                       type="text"
                       placeholder="John Smith"
+                      name="full-name"
                       required
                     />
                   </div>
@@ -697,6 +702,7 @@
                       class="input"
                       type="email"
                       placeholder="me@example.com"
+                      name="email"
                       required
                     />
                   </div>
@@ -706,7 +712,12 @@
                       Where did you hear about us?
                     </label>
 
-                    <select class="select" name="" id="select-where" required>
+                    <select
+                      class="select"
+                      name="select-where"
+                      id="select-where"
+                      required
+                    >
                       <option value="">Please choose one</option>
                       <option value="friends">Friends and family</option>
                       <option value="youtube">Youtube</option>
@@ -716,7 +727,9 @@
                     </select>
                   </div>
 
-                  <button class="button button-form">Sign up now</button>
+                  <button type="submit" class="button button-form">
+                    Sign up now
+                  </button>
                 </form>
               </div>
               <div
