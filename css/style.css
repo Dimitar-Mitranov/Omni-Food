@@ -273,6 +273,10 @@ strong {
   display: none;
 }
 
+.mobile-navigation-icon[name="menu-outline"] {
+  color: #333;
+}
+
 .mobile-navigation-icon {
   height: 4.8rem;
   width: 4.8rem;
